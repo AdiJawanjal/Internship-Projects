@@ -24,6 +24,13 @@ This project demonstrates a simple Continuous Integration and Continuous Deploym
 
 ---
 
+## 🔄 GitHub Actions CI/CD
+Workflow Steps:
+
+![Build Success](Screenshots/Pipeline.png)
+
+---
+
 ## 🛠️ Setup Instructions
 
 ### 1. Clone the Repository
@@ -32,7 +39,35 @@ This project demonstrates a simple Continuous Integration and Continuous Deploym
 git clone https://github.com/AdiJawanjal/CI-CD-GitHub-Action.git
 cd CI-CD-GitHub-Action
 ```
-##🔄 GitHub Actions CI/CD
-Workflow Steps:
+### 2. Build & Run Locally (Optional)
+```bash
+npm install
+npm start
+```
 
-/Screenshots/Pipeline.png
+### 🐳 Docker Setup
+Build and run manually:
+```bash
+docker build -t ci-cd-demo .
+docker run -p 3000:3000 ci-cd-demo
+```
+---
+## ☸️ Kubernetes Deployment (Minikube)
+```bash
+kubectl apply -f deployment.yml
+kubectl apply -f service.yml
+minikube service ci-cd-service
+```
+You should see the app running at a URL like: http://<public_ip>:30080
+
+---
+
+## 📸 Deliverables
+✅ GitHub Repo
+
+✅ Docker Image: docker.io/<your-username>/ci-cd-demo
+
+✅ GitHub Actions workflow results (see Actions tab)
+
+✅ Screenshots of deployed app (add here)
+

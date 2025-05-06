@@ -2,6 +2,8 @@
 
 This project demonstrates a simple Continuous Integration and Continuous Deployment (CI/CD) pipeline using **GitHub Actions**, **Docker**, and **Minikube** (Kubernetes local cluster). No cloud services are required.
 
+## Note = Original Project Repo : https://github.com/AdiJawanjal/CI-CD-GitHub-Action.git (Refer this for CI/CD Authentication)
+
 ## 🚀 Project Overview
 
 - A Node.js Express app

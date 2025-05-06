@@ -1,5 +1,7 @@
 # **Self Healing Infrastructure**
 
+### Note = Original Project Repository : https://github.com/AdiJawanjal/Self-Healing-Infra.git
+
 ## 🚀 **Project Overview**
 
 This project demonstrates a **self-healing infrastructure** using **Prometheus**, **Alertmanager**, **Ansible**, and **Docker**. It automatically detects service failures, such as a stopped NGINX container, and recovers from them by restarting the container without manual intervention.
